@@ -1,36 +1,44 @@
-<p align="center">
-   
-   
-</p>
-<h3 align="center"><a href='https://www.udacity.com/course/data-scientist-nanodegree--nd025'>Udacity Data Scientist Nanodegree Program</a></h3>
-<h4 align="center">Project I: Write a Data Science Blog Post</h4>
+# Airbnb_NYC_2019
+Udacity Data Scientist Nanodegree Project
 
-## Table of Contents
-- [Installation](#installation)
-- [Project Motivation](#motivation)
-- [Results](#results)
-- [Licensing, Authors, and Acknowledgements](#licensing)
+Analysis on 2019 NYC Airbnb Data ([check Medium post]())
 
-## Installation <a name="installation"></a>
-You need to be able to work in a Jupyter Notebook on your computer. The following packages (libraries) need to be installed. You can install these packages via conda or pip.
+## Installation
+This project uses the following Python libraries under Python version 3.7:
 
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- jupyterthemes
+  `Pandas` 
+  `Numpy` 
+  `Matplotlib` 
+  `Seaborn` 
+  `Scikit-learn`
 
-You will need to download New York City Airbnb Data 2019. The database describe the listing activity and metrics in NYC for 2019.[here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data). 
+Clone this repo to your local machine using ```$ git clone https://github.com/Luna-github/Airbnb_NYC_2019```. 
 
-## Project Motivation <a name="motivation"></a>
+## Project Motivation
+This project analyzes 2019 NYC Airbnb data to explore the differences in price and availability among different area groups in NYC, to identify the busiest hosts in NYC, and to build up a preliminary linear regression model to predict the listing price of each listing. 
 
-This is an Udacity Nanodegree project.I was interested in using Stackoverflow Developer Survey Data to better understand: </br>
-- What Programming Languages are most used to work and Which Programming Languages are most Required in Stackoverflow survey data of 2017 and 2018 ?
-- How does Programming Languages used at work relates with Programming Languages, People Wants to Learn in India According to Stackoverflow survey data of 2017 and 2018?
-- What are the most wanted Programming Languages in India According to Stackoverflow survey data of 2017 and 2018?
+## File Descriptions
+`AB_NYC_2019.csv`: This file contains data that is used in this project, originally from [Kaggle](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data).
 
-## Results <a name="results"></a>
-The main findings of the code can be found at the post available [here](https://medium.com/@betu.abhishek20182/stack-overflow-survey-in-india-f2a7a63be7e5?sk=d1ce1941c932b288f21b89578511dee2)
+`Airbnb_NYC_2019.ipynb`: This file is the python file that includes codings used for this project.
 
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-Must give credit to Stackoverflow for the data. You can find the Licensing for the data and other descriptive information at the Stackoverflow link available [here](https://insights.stackoverflow.com/survey).
+## Interactions
+### Findings
+#### Area Differences
+Mahattan and Brooklyn are two areas that are the most popular among the five boroughs in NYC. Within these two areas, private room and entire room/apartment are the most popular room types. Mahattan has the greatest listing price among the five boroughs in all three room types. 
+
+#### The Most Successful Hosts
+In my analysis, I calculate the average revenue for each host in NYC by multiplying the number of days their rooms booked with the list price and averaging this to each listing if the host has more than one listing. I picked those hosts as the most successful with average revenue of $37,497.5 or above. The majority of these most successful hosts have listed their rooms in Manhattan and Brooklyn as entire home/apartment
+
+#### The Price Prediction
+Based on two categorical variables (room type and neighbourhood_group) and six numerical variables (longitude, latitude, reviews_per_month, minimum_nights, availability_365, and calculated_host_listings_count), the linear regression model has an R-squared on the test data as 0.11. 
+
+## Author
+Yuemin Li
+
+Github: https://github.com/Luna-github
+
+LinkedIn: https://www.linkedin.com/in/yuemin-li-89166333/
+
+## License
+Usage is provided under the MIT License. See LICENSE for the full details.
