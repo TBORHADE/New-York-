@@ -4,13 +4,13 @@ Udacity Data Scientist Nanodegree Project
 Analysis on 2019 NYC Airbnb Data ([check Medium post]())
 
 ## Installation
-This project uses the following Python libraries under Python version 3.7:
+This project uses the following Python libraries under Python version 4.6:
 
-  `Pandas` 
-  `Numpy` 
-  `Matplotlib` 
-  `Seaborn` 
-  `Scikit-learn`
+  Pandas 
+  Numpy 
+  Matplotlib 
+  Seaborn 
+  Scikit-learn
 
 Clone this repo to your local machine using ```$ git clone https://github.com/Luna-github/Airbnb_NYC_2019```. 
 
