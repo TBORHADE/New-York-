@@ -20,7 +20,7 @@ You need to be able to work in a Jupyter Notebook on your computer. The followin
 - Seaborn
 - jupyterthemes
 
-You will need to download Stackoverflow’s 2017 and 2018 Annual Developer Survey and put in specific folders. You can find the data to download [here](https://insights.stackoverflow.com/survey). 
+You will need to download New York City Airbnb Data 2019. The database describe the listing activity and metrics in NYC for 2019.[here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data). 
 
 ## Project Motivation <a name="motivation"></a>
 
