@@ -38,7 +38,6 @@ Yuemin Li
 
 Github: https://github.com/Luna-github
 
-LinkedIn: https://www.linkedin.com/in/yuemin-li-89166333/
 
 ## License
 Usage is provided under the MIT License. See LICENSE for the full details.
