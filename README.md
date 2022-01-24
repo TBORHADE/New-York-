@@ -1,7 +1,7 @@
 # Airbnb_New-York_2019
 Udacity Data Scientist Nanodegree Project
 
-Analysis on 2019 NYC Airbnb Data ([check Medium post]())
+Analysis on 2019 NYC Airbnb Data ([check Medium post](https://medium.com/p/52f384ab656e/edit))
 
 ## Installation
 This project uses the following Python libraries under Python version 4.6:
