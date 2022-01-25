@@ -1,4 +1,4 @@
-# Airbnb_New-York_2019
+# New-York_Airbnb-2019
 Udacity Data Scientist Nanodegree Project
 
 Analysis on 2019 NYC Airbnb Data ([check Medium post](https://medium.com/p/52f384ab656e/edit))
