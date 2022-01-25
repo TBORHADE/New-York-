@@ -1,5 +1,5 @@
 # New-York_Airbnb-2019
-Udacity Data Scientist Nanodegree Project
+Udacity Data Scientist Nanodegree Project.
 The project applies CRISP-DM process on Airbnb New York City listings dataset to gain insight into Airbnb hosting business([check Medium post](https://medium.com/p/52f384ab656e/edit)).
 
 ### Libraries use
